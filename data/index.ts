@@ -1,24 +1,242 @@
 export const navItems = [
+  { name: "Home", link: "/"},
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
+export const words = [
+    {
+      text: "Moderne"
+    },
+    {
+      text: "en"
+    },
+    {
+      text: "Effectieve"
+    },
+    {
+      text: "Systemen"
+    },
+    {
+      text: "met"
+    },
+    {
+      text: "Zicht"
+    },
+    {
+      text: "op"
+    },
+    {
+      text: "de",
+    },
+    {
+      text: "Toekomst",
+    }
+  ]
+
+export const wordsIntranet = [
+    {
+      text: "Het"
+    },
+    {
+      text: "Intranet"
+    },
+    {
+      text: "en"
+    },
+    {
+      text: "Meldkamer"
+    },
+    {
+      text: "Systeem"
+    }
+  ]
+
+export const productIntranetPackets = [
+  {
+    title: "Intranet systeem",
+    price: 5,
+    list: [
+      {
+        title: "Actieve ondersteuning",
+        check: true,
+      },
+      {
+        title: "50 Gebruikers",
+        check: true,
+      },
+      {
+        title: "Ledenbeheer",
+        check: true,
+      },
+      {
+        title: "Administratiepaneel",
+        check: true,
+      },
+      {
+        title: "Intranet",
+        check: true,
+      }
+    ]
+  },
+  {
+    title: "Meldkamer systeem",
+    price: 10,
+    list: [
+      {
+        title: "Actieve ondersteuning",
+        check: true,
+      },
+      {
+        title: "50 Gebruikers",
+        check: true,
+      },
+      {
+        title: "Ledenbeheer",
+        check: true,
+      },
+      {
+        title: "Administratiepaneel",
+        check: true,
+      },
+      {
+        title: "Meldkamer",
+        check: true,
+      },
+      {
+        title: "FiveM/Roblox integratie (Binnenkort!)",
+        check: true,
+      }
+    ]
+  },
+  {
+    title: "Volledig systeem",
+    price: 20,
+    list: [
+      {
+        title: "Actieve ondersteuning",
+        check: true,
+      },
+      {
+        title: "50 Gebruikers",
+        check: true,
+      },
+      {
+        title: "Ledenbeheer",
+        check: true,
+      },
+      {
+        title: "Administratiepaneel",
+        check: true,
+      },
+      {
+        title: "Intranet",
+        check: true,
+      },
+      {
+        title: "Meldkamer",
+        check: true,
+      },
+      {
+        title: "FiveM/Roblox integratie (Binnenkort!)",
+        check: true,
+      }
+    ]
+  },
+  {
+    title: "Volledig systeem + whitelabel",
+    price: 30,
+    list: [
+      {
+        title: "Actieve ondersteuning",
+        check: true,
+      },
+      {
+        title: "50 Gebruikers",
+        check: true,
+      },
+      {
+        title: "Ledenbeheer",
+        check: true,
+      },
+      {
+        title: "Administratiepaneel",
+        check: true,
+      },
+      {
+        title: "Intranet",
+        check: true,
+      },
+      {
+        title: "Meldkamer",
+        check: true,
+      },
+      {
+        title: "FiveM/Roblox integratie (Binnenkort!)",
+        check: true,
+      },
+      {
+        title: "Eigen uitstraling!",
+        check: true,
+      }
+    ]
+  }
+]
+
+export const tabs = [
+  {
+    title: "Maandelijks",
+    value: "monthly"
+  },
+  {
+    title: "Jaarlijks",
+    value: "annually"
+  }
+]
+
+export const intranetIntranet = [
+  {
+    title: "Actieve support",
+    check: true,
+  },
+  {
+    title: "50 Gebruikers",
+    check: true,
+  },
+  {
+    title: "Ledenbeheer",
+    check: true,
+  },
+  {
+    title: "Administratiepaneel",
+    check: true,
+  },
+  {
+    title: "Intranet",
+    check: true,
+  },
+  {
+    title: "Meldkamer",
+    check: false,
+  }
+]
+
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Ondersteuning van onze klanten staat met stipt op 1",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/laptops.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Wij staan klaar voor onze klanten, altijd en overal",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +246,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Onze programmeer ervaring",
+    description: "We zijn constant aan het verbeteren",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +256,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Ambitieuze programmeurs met een liefde voor het vak",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +267,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Momenteel werken wij aan ons Intranet & Meldkamer systeem",
+    description: "Een kijkje achter de schermen",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +277,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Samen jouw idee werkelijkheid maken?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,35 +290,30 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Intranet & Meldkamer systeem",
+    des: "Hét systeem voor FiveM en Roblox clans met grote ambities!",
+    img: "/laptop-intranet.png",
+    iconLists: ["/vite.svg", "/tail.svg", "/ts.svg", "/javascript.svg", "/lua.svg"],
+    link: "/intranet",
+    showLink: "/intranet",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Binnenkort meer...",
+    des: "Dit product is nog niet bekend gemaakt, kom later terug voor meer informatie.",
+    img: "/laptop-soon.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/rust-invert.svg"],
+    link: "/soon",
+    showLink: "/soon",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Custom verzoeken",
+    des: "Een team nodig dat jouw idee werkelijkheid maakt?",
+    img: "/laptop-custom.png",
+    iconLists: ["/javascript.svg", "/lua.svg", "/rust-invert.svg", "/java-icon.svg", "/python.svg"],
+    link: "/custom",
+    showLink: "/custom",
   },
 ];
 
@@ -204,14 +417,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
+    img: "/discord.svg",
+    href: "https://discord.gg/9eap3pbJ6C",
   },
 ];
