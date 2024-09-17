@@ -4,7 +4,7 @@ import { NavbarDemo } from "@/components/NavbarMenu";
 import Hero from "@/components/HeroIntranet";
 import Footer from "@/components/Footer";
 import { productIntranetPackets } from "@/data";
-import { TimelineDemo } from "@/components/TimelineDemo";
+import { TimelineIntranet } from "@/components/TimelineIntranet";
 import PriceSection from "@/components/PriceSection";
 
 const Intranet = () => {
@@ -14,7 +14,7 @@ const Intranet = () => {
         <NavbarDemo />
         <Hero />
         <PriceSection packets={productIntranetPackets} />
-        <TimelineDemo />
+        <TimelineIntranet />
         <Footer />
       </div>
     </main>
